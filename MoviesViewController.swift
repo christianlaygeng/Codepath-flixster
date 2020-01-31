@@ -61,24 +61,11 @@ class MoviesViewController: UIViewController,UITableViewDataSource, UITableViewD
             self.movies = dataDictionary["results"] as! [[String:Any]]
             
             self.tableView.reloadData()
-              // TODO: Get the array of movies
-              // TODO: Store the movies in a property to use elsewhere
-              // TODO: Reload your table view data
 
            }
         }
         task.resume()
         // Do any additional setup after loading the view.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
